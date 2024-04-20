@@ -21,7 +21,7 @@ const Login = () => {
         e.preventDefault();
         try {
             const { data } = await axios.post(
-                "https://mernauth-six.vercel.app/login",
+                "https:/mernauth-six.vercel.app/login",
                 {
                     ...inputValue,
                 },

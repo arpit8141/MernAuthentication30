@@ -19,7 +19,8 @@ app.listen(PORT, () => {
 
 app.use(
     cors({
-        origin: ["https://mernauthfrontend-self.vercel.app"],
+        // origin: ["https://mernauthfrontend-self.vercel.app"],
+        origin: "*",
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     })

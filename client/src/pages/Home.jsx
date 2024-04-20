@@ -14,7 +14,7 @@ const Home = () => {
                 navigate("/login");
             }
             const { data } = await axios.post(
-                "mernauth-six.vercel.app",
+                "/",
                 {},
                 { withCredentials: true }
             );
